@@ -1,0 +1,11 @@
+# Site settings
+title: CLS
+email: csudjono@gmail.com
+description: Portfolio Site for Carissa L Sudjono
+baseurl: "/CLSPortfolio" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: carissalestari
+github_username:  csudjono
+
+# Build settings
+markdown: kramdown
