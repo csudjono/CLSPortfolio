@@ -1,0 +1,8 @@
+var location = window.location.pathname;
+var masthead = document.querySelector('#masthead');
+
+if (location.indexOf('contact') > 0) {
+	masthead.setAttribute('src', 'image1.jpg');
+} else if (location.indexOf('about') > 0) {
+	masthead.setAttribute('src', 'image.jpg')
+}

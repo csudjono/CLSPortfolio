@@ -1,0 +1,45 @@
+h2 {
+	text-transform: uppercase;
+}
+
+.container {
+	display: flex;
+	padding: 10px;
+	flex-direction: row;
+	align-self: center;
+}
+
+
+.mediaObject {
+	align-items: center;
+	text-align: left;
+	margin: 0 10px 10px 10px;
+}
+
+.mediaObject > .pictureWrapper {
+	flex: 1;
+}
+
+.mediaObject .pictureWrapper img {
+	max-width: 100%;
+}
+
+.mediaObject .descriptionWrapper {
+	flex: 1;
+	max-width: 350px;
+}
+
+
+@media (min-width: 1px) and (max-width: 800px) {
+	.container {
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.mediaObject {
+		min-width: 200px;
+	}
+
+
+}
+	
